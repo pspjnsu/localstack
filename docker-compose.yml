@@ -2,7 +2,7 @@ version: '2.1'
 
 services:
   localstack:
-    container_name: "aws-stack2"
+    container_name: "aws-stack"
     image: localstack/localstack
     network_mode: bridge
     ports:
